@@ -24,7 +24,7 @@ function verificar() {
     }
     if (h >= 00 && h < 5) {
         titulo.innerHTML = `Agora são ${h} horas da madrugada.`
-        img.src = "https://github.com/emanuelvictor1/Hora-do-dia/blob/master/img/foto%20madrugada.jpg";
+        img.src = "/img/foto madrugada.jpg";
         document.body.style.background = '#363636'
         
     }
