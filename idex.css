@@ -1,0 +1,35 @@
+body {
+    background-color: 	#DEB887;
+}
+.titulo {
+    text-align: center;
+    font-size: 35pt;
+    color: white;
+    font: Arial;
+}
+.container-1 {
+    background-color: white;
+    width: 450px;
+    height: 299px;
+    margin: auto;
+    border-radius: 10px;
+}
+#msg{
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 17pt;
+}
+.img {
+    width: 330px;
+    border-radius: 55px;
+    margin: auto;
+    height: 235px;
+    margin-left: 55px;
+}
+footer {
+    text-align: center;
+    color: aliceblue;
+    padding: 15px;
+    font-size: 17pt;
+}
