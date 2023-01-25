@@ -9,17 +9,17 @@ function verificar() {
     
     if (h >= 0 && h < 12) {
         titulo.innerHTML = `Agora são ${h} horas da manhã.`
-        img.src = "/img/manha.jpg";
+        img.src = "https://github.com/emanuelvictor1/Hora-do-dia/blob/master/img/manha.jpg";
         document.body.style.background = '#F5DEB3'
     }
     if (h >= 12 && h < 18) {
         titulo.innerHTML = `Agora são ${h} horas da tarde.`
-        img.src = "/img/foto tarde.jpg";
+        img.src = "https://github.com/emanuelvictor1/Hora-do-dia/blob/master/img/foto%20tarde.jpg";
         document.body.style.background = '#F4A460'
     }
     if (h >= 18) {
         titulo.innerHTML = `Agora são ${h} horas da noite.`
-        img.src = "/img/foto noite.jpg";
+        img.src = "https://github.com/emanuelvictor1/Hora-do-dia/blob/master/img/foto%20noite.jpg";
         document.body.style.background = '	#8B4513'
     }
     if (h >= 00 && h < 5) {
